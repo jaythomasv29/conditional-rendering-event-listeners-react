@@ -4,11 +4,18 @@
   * true && expression always evaluates to expression and will render the element
   * false && expression always evaluates to false, and React will ignore
   ```
-
+    {
+      subscribed && 
+      <h3>Thanks for subscribing, you made it!</h3>
+    }
   ```
 
 ## Inline If-Else Conditional Operator
-  
+  ```
+  <button onClick={ () => setAlerts(prevAlert => !prevAlert) }>
+          { alerts? 'Turn off Notifications' : "Set Notifications" }
+  </button> 
+  ```
 
 
 ## Available Scripts
