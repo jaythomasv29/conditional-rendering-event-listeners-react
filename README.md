@@ -13,7 +13,7 @@
 ## Inline If-Else Conditional Operator
   ```
   <button onClick={ () => setAlerts(prevAlert => !prevAlert) }>
-          { alerts? 'Turn off Notifications' : "Set Notifications" }
+    { alerts? 'Turn off Notifications' : "Set Notifications" }
   </button> 
   ```
 
